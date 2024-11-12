@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Movie</title>
+  <link href="StyleFM.css" rel="stylesheet"/>
+ </head>
+ <body>
+    <div class="glavnaoe">
+        <div class="header">
+            <div class="text">НЕКИНОПОИСК</div>
+            <input type="text" class="strokavvoda"></input>
+            <button onclick="searchMovies()" class="knopka">Search</button>
+            <label for="sortby">Sort by</label>
+            <select onchange="displayMovies()" name="sortby" id="sortby">
+                <option value="Popularity">Popularity</option>
+                <option value="Date">Date</option>
+                <option value="Rating">Rating</option>
+            </select>
+        </div>
+        <div class="showfilms">
+            <div class="cardwirhfilm">
+                <img src="img/download.jpg" class="img">
+                <div class="filmname">Cat on watermelon</div>
+                <div class="date">32.02.2124<br></div>
+            </div>
+            <div class="cardwirhfilm">
+                <img src="img/download.jpg" class="img">
+                <div class="filmname">Cat on watermelon</div>
+                <div class="date">32.02.2124<br></div>
+            </div>
+            <div class="cardwirhfilm">
+                <img src="img/download.jpg" class="img">
+                <div class="filmname">Cat on watermelon</div>
+                <div class="date">32.02.2124<br></div>
+            </div>
+            <div class="cardwirhfilm">
+                <img src="img/download.jpg" class="img">
+                <div class="filmname">Cat on watermelon</div>
+                <div class="date">32.02.2124<br></div>
+            </div>
+            <div class="cardwirhfilm">
+                <img src="img/download.jpg" class="img">
+                <div class="filmname">Cat on watermelon</div>
+                <div class="date">32.02.2124<br></div>
+            </div>
+        </div>
+    </div>
+    <script src="Movie.js"></script>
+ </body>
+</html>

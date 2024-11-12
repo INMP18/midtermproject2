@@ -1,0 +1,86 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/snowy-background-snow-covered-surface-earth-after-blizzard-morning-sunlight-with-distinct-layers-snow-sky-with-clouds-out-focus-winter-christmas-background_199743-7240.avif);
+    background-size: cover;
+}
+.text{
+    color: Black;
+    font-size: 40px;
+    margin-left: 3%;
+}
+.header{
+    position: absolute;
+    display: flex;
+    background-color: aliceblue;
+    width: 100%;
+}
+.strokavvoda{
+    width: 20%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 50%;
+}
+.knopka{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.weather{
+    display: flex;
+    height: 100vh;
+    padding-top: 10%;
+    padding-left: 2%;
+}
+.okoshko{
+    width: 600px;
+    height: 650px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 14px;
+}
+.weatherpannel{
+    padding: 0;
+    margin: 0;
+}
+.weathernow{
+    margin-bottom: 10px;
+}
+.day{
+    margin-bottom: 10px;
+}
+.day h3{
+    margin-top: 0;
+    font-size: 16px;
+}  
+
+.nextdays{
+    display: flex;
+    gap: 10px;
+}
+h1{
+    font-size: 15px;
+}
+.map{
+    width: 600px;
+    height: 450px;
+    margin-left: 15%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
